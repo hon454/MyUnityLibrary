@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\hon45\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\hon45\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MyUnityLibrary.1788788557.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hon45\Documents\Repositories\MyUnityLibrary" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="MyUnityLibrary" t="Include">
+            <e p="Android" t="Include">
+              <e p="AndroidWifiInfo.cs" t="Include" />
+            </e>
+            <e p="Enums" t="Include">
+              <e p="EDirection.cs" t="Include" />
+              <e p="EHorizontalDirection.cs" t="Include" />
+              <e p="EVerticalDirection.cs" t="Include" />
+            </e>
+            <e p="Managers" t="Include">
+              <e p="GameSpeedManager.cs" t="Include" />
+              <e p="ScreenInputManager.cs" t="Include" />
+            </e>
+            <e p="Patterns" t="Include">
+              <e p="MonoSingleton.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="Rotater.cs" t="Include" />
+              <e p="WaitForRealSeconds.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="MyUnityLibrary.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
