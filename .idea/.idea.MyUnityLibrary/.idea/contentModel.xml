@@ -7,7 +7,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Events" t="Include">
+            <e p="EventData.cs" t="Include" />
+            <e p="EventDispatcher.cs" t="Include" />
+            <e p="EventHandler.cs" t="Include" />
+            <e p="EventInfo.cs" t="Include" />
+            <e p="IEventData.cs" t="Include" />
+          </e>
           <e p="MyUnityLibrary" t="Include">
+            <e p="Analysis" t="Include">
+              <e p="DisposableStopWatch.cs" t="Include" />
+            </e>
             <e p="Android" t="Include">
               <e p="AndroidWifiInfo.cs" t="Include" />
             </e>
@@ -25,10 +35,15 @@
               <e p="Singleton.cs" t="Include" />
             </e>
             <e p="Utilities" t="Include">
+              <e p="ReflectionUtility.cs" t="Include" />
               <e p="Rotater.cs" t="Include" />
               <e p="WaitForRealSeconds.cs" t="Include" />
             </e>
           </e>
+          <e p="ObjectPool" t="Include">
+            <e p="ObjectPool.cs" t="Include" />
+          </e>
+          <e p="Test.cs" t="Include" />
         </e>
       </e>
       <e p="MyUnityLibrary.sln" t="IncludeFlat" />

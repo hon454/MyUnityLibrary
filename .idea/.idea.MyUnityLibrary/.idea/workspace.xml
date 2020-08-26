@@ -11,23 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eb61e1b-a752-41b3-9bd9-fbf97bf089fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/3D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Android.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Android/AndroidWifiInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EDirection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EHorizontalDirection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EVerticalDirection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/GameSpeedManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/GameSpeedManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/ScreenInputManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/ScreenInputManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/Rotater.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/Rotater.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/WaitForRealSeconds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventDispatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventDispatcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/IEventData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/IEventData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Analysis/DisposableStopWatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Analysis/DisposableStopWatch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/ReflectionUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/ReflectionUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool/ObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool/ObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityLibrary/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Extensions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +42,45 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/Rotater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Android/AndroidWifiInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/WaitForRealSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/Editor/TagSelectorPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/ScreenInputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../UnitySingleton/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/a0/fa33ed9c/CustomYieldInstruction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/36/ec41f298/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/UINavigation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/Monobehaviour/DamageEventBroadcaster2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/AdvancedState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/ScriptableObject/PrototypeScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/10/13280ce9/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/TagSelectorAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EVerticalDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EDirection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/a8/b47d55c3/BindingFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/8e/ae95487d/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/31/57c85c66/Activator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EHorizontalDirection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/ScriptableObject/Decision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/Rotater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/StringUnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/IState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Analysis/DisposableStopWatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/UIView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnitySingleton/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/Pool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/66/23ea7fc9/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/ScriptableObject/AttackEvent2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/77/bb94e1f4/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/AdvancedTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/36/ec41f298/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/Monobehaviour/Health.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/a8/b47d55c3/BindingFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A8642DF-3638-4AB1-A1EF-B0E2D98B1551/6c/4a6cfe7d/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../advanced-unity-plugin/Scripts/Monobehaviour/AttackEventTrigger2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DE66FF1-1FCB-4513-8463-255B392B032B/cf/d959941d/Stopwatch.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,10 +89,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Patterns/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Patterns/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Patterns/MonoBehaviourSingleton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Patterns/MonoSingleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Android/AndroidWifiInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/Rotater.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Enums/EVerticalDirection.cs" />
@@ -72,6 +98,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/WaitForRealSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/GameSpeedManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Managers/ScreenInputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/IEventData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventDispatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Extensions/ReflectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Patterns/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/ReflectiveEnumerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/ReflectionUtility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Utilities/DisposableStopWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Debug/DisposableStopWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Patterns/MonoSingleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Debugging/DisposableStopWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUnityLibrary/Analysis/DisposableStopWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
       </list>
     </option>
   </component>
@@ -85,6 +127,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -106,10 +150,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11936">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11936" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -125,7 +169,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598283140377</updated>
       <workItem from="1598283148213" duration="4526000" />
-      <workItem from="1598287697631" duration="2824000" />
+      <workItem from="1598287697631" duration="3591000" />
+      <workItem from="1598291586179" duration="661000" />
+      <workItem from="1598457535580" duration="8495000" />
     </task>
     <servers />
   </component>
@@ -151,9 +197,87 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="566" y="85" key="RiderGenerateDialog" timestamp="1598289056455">
+    <state width="386" height="464" key="DebuggerActiveHint" timestamp="1598463412238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="386" height="464" key="DebuggerActiveHint/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598463412238" />
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1598467250116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250116" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1598467250116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250116" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1598467250117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598467250117" />
+    <state x="566" y="85" key="RiderGenerateDialog" timestamp="1598462475036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="85" key="RiderGenerateDialog/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598462475036" />
     <state x="566" y="85" key="RiderGenerateDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598289056455" />
+    <state x="2338" y="100" width="1101" height="810" maximized="true" key="dock-window-1" timestamp="1598457844592">
+      <screen x="1920" y="-851" width="864" height="1496" />
+    </state>
+    <state x="2338" y="100" width="1101" height="810" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598292247604" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598464411995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-851.864.1496@0.0.1536.824" timestamp="1598464411995" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598291626590" />
   </component>
 </project>
