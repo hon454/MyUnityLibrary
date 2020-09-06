@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\hon45\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\hon45\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MyUnityLibrary.1788788557.00" t="ExcludeRecursive" />
-    <e p="C:\Users\hon45\Documents\Repositories\MyUnityLibrary" t="IncludeRecursive">
+    <e p="C:\Users\hon45\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MyUnityLibrary.1105582472.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hon45\Documents\GitHub\MyUnityLibrary" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -43,7 +44,104 @@
           <e p="ObjectPool" t="Include">
             <e p="ObjectPool.cs" t="Include" />
           </e>
-          <e p="Test.cs" t="Include" />
+          <e p="RPGSystem" t="Include">
+            <e p="Entities" t="Include">
+              <e p="Leveling" t="Include">
+                <e p="EntitiyLevels" t="Include">
+                  <e p="RPGDefaultLevel.cs" t="Include" />
+                </e>
+                <e p="EventArgs" t="Include">
+                  <e p="RPGExpGainEventArgs.cs" t="Include" />
+                  <e p="RPGLevelChangeEventArgs.cs" t="Include" />
+                </e>
+                <e p="RPGEntityLevel.cs" t="Include" />
+              </e>
+              <e p="RPGEntity.cs" t="Include" />
+            </e>
+            <e p="StatSystem" t="Include">
+              <e p="Interface" t="Include">
+                <e p="IStatCurrentValueChange.cs" t="Include" />
+                <e p="IStatLinkable.cs" t="Include" />
+                <e p="IStatModifiable.cs" t="Include" />
+                <e p="IStatScalable.cs" t="Include" />
+                <e p="IStatValueChange.cs" t="Include" />
+              </e>
+              <e p="StatCollections" t="Include">
+                <e p="RPGDefaultStats.cs" t="Include" />
+                <e p="RPGStatCollection.cs" t="Include" />
+              </e>
+              <e p="StatLinkers" t="Include">
+                <e p="Extensions" t="Include">
+                  <e p="RPGStatLinkerBasic.cs" t="Include" />
+                </e>
+                <e p="RPGStatLinker.cs" t="Include" />
+              </e>
+              <e p="StatModifiers" t="Include">
+                <e p="Extensions" t="Include">
+                  <e p="RPGStatModBaseAdd.cs" t="Include" />
+                  <e p="RPGStatModBasePercent.cs" t="Include" />
+                  <e p="RPGStatModTotalAdd.cs" t="Include" />
+                  <e p="RPGStatModTotalPercent.cs" t="Include" />
+                </e>
+                <e p="RPGStatModifier.cs" t="Include" />
+              </e>
+              <e p="Stats" t="Include">
+                <e p="Extensions" t="Include">
+                  <e p="RPGAttribute.cs" t="Include" />
+                  <e p="RPGStatModifiable.cs" t="Include" />
+                  <e p="RPGVital.cs" t="Include" />
+                </e>
+                <e p="RPGStat.cs" t="Include" />
+              </e>
+              <e p="StatTypes" t="Include">
+                <e p="Database" t="Include">
+                  <e p="RPGStatTypeAsset.cs" t="Include" />
+                  <e p="RPGStatTypeDatabase.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="RPGStatTypeDialog.cs" t="Include" />
+                  <e p="RPGStatTypeGenerator.cs" t="Include" />
+                  <e p="RPGStatTypeInspector.cs" t="Include" />
+                  <e p="RPGStatTypeWindow.cs" t="Include" />
+                </e>
+                <e p="RPGStatType.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TestScripts" t="Include">
+              <e p="RPGEntityLevelTest.cs" t="Include" />
+              <e p="RPGStatTest.cs" t="Include" />
+              <e p="RPGVitalTest.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="UIExperienceBar.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UIStateMachine" t="Include">
+            <e p="IOnStateAwake.cs" t="Include" />
+            <e p="IOnStateDefocus.cs" t="Include" />
+            <e p="IOnStateEnter.cs" t="Include" />
+            <e p="IOnStateExit.cs" t="Include" />
+            <e p="IOnStateFocus.cs" t="Include" />
+            <e p="IOnStateUpdate.cs" t="Include" />
+            <e p="UIState.cs" t="Include" />
+            <e p="UIStateMachine.cs" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="Database" t="Include">
+              <e p="AbstractDatabase.cs" t="Include" />
+              <e p="BaseDatabase" t="Include">
+                <e p="BaseDatabase.cs" t="Include" />
+                <e p="BaseDatabaseAsset.cs" t="Include" />
+              </e>
+              <e p="Interface" t="Include">
+                <e p="IDatabaseAsset.cs" t="Include" />
+              </e>
+              <e p="SODatabase" t="Include">
+                <e p="SODatabase.cs" t="Include" />
+                <e p="SODatabaseAsset.cs" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="MyUnityLibrary.sln" t="IncludeFlat" />
